@@ -1,0 +1,9 @@
+com\example\repository\TituloRepository.class
+com\example\CobrancaSpringApplication$MvcConfig.class
+com\example\model\StatusTitulo.class
+com\example\controller\TituloController.class
+com\example\service\CadastroTituloService.class
+com\example\CobrancaSpringApplication.class
+com\example\repository\filter\TituloFilter.class
+com\example\ServletInitializer.class
+com\example\model\Titulo.class
