@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:th="http://www.thymeleaf.org"
-    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
-    
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
 <nav class="navbar navbar-inverse navbar-static-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-               
-            </a>
-        </div>
-    </div>
+	<div class="container-fluid">
+		<div class="navbar-right">
+			<a class="navbar-brand" href="#"> </a>
+		</div>
+	</div>
+
+	<div class="navbar-right">
+		<div class="clearfix">
+			<a th:href="@{/logout}">SAIR</a>
+		</div>
+	</div>
 </nav>
-    
+
 </html>
